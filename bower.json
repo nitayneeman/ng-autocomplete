@@ -1,0 +1,15 @@
+{
+    "name": "ng-autocomplete",
+    "version": "0.0.1",
+    "homepage": "https://github.com/nitayneeman/ng-autocomplete",
+    "keywords": [
+        "angularjs",
+        "javascript",
+        "jquery",
+        "autocomplete"
+    ],
+    "license": "MIT",
+    "authors": [
+        "Nitay Neeman <nitay14@gmail.com>"
+    ]
+}
