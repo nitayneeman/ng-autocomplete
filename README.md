@@ -12,8 +12,8 @@ Make sure those files are included in your page:
 All the options of Autocomplete.js are available, for example:
 
 ```html
-  <autocomplete hints='proposals' placeholder='type your text' width='500' height='25'
-     showButton='true' buttonText='Submit' on-submit='submit()'></autocomplete>
+<autocomplete hints='proposals' placeholder='type your text' width='500' height='25'
+  showButton='true' buttonText='Submit' on-submit='submit()'></autocomplete>
 ```
 
 Note: proposals array and submit method should be on your controller.
