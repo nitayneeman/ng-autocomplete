@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>ng-autocomplete Demo<</title>
+        <link rel="stylesheet" href="../src/autocomplete.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="../src/autocomplete.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="../dist/ng-autocomplete.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/MainController.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <h1>ng-autocomplete Demo</h1>
+        <section ng-controller="MainController">
+            <autocomplete hints='proposals' placeholder='type your text' width='500' height='25'
+                          showButton='true' buttonText='Submit' on-submit='submit()'></autocomplete>
+        </section>
+    </body>
+</html>

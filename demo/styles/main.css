@@ -1,0 +1,16 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: rgb(243, 243, 243);
+}
+
+.autocomplete-button {
+    background: #000000;
+}
+
+.autocomplete-button:HOVER {
+    background: #474747;
+}
+
+li.proposal.selected {
+    background-color: #474747;
+}
