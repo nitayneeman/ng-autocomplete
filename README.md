@@ -1,7 +1,10 @@
-#ng-autocomplete
+# ng-autocomplete
 An AngularJS directive for search hints, based on Autocomplete.js.
 
-##Getting started
+## DEPRECATED
+This repository is not maintained anymore.
+
+## Getting started
 Make sure those files are included in your page:
 * jQuery
 * autocomplete.js
